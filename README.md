@@ -16,6 +16,7 @@ import like other packages in .tex file
 
 Packages
 --------
+* profcaption
 * simushdr
 * simuslistings
 * tikz-er2
@@ -29,3 +30,4 @@ Styles in simuslistings
 Hints
 -----
 * Use \lstset{style=<STYLE>} at the top to set default for the document
+* Use \lstinputlisting[label=foo,caption=bar]{pathToFile} for professional captions with profcaption
