@@ -17,3 +17,9 @@ import like other packages in .tex file
 Styles
 ------
 * simusTerminalCommand
+* simusSQL
+* simusCypher
+
+Hints
+-----
+* Use \lstset{style=<STYLE>} at the top to set default for the document

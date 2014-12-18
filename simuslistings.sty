@@ -11,3 +11,25 @@
 	frame=left below,
 	columns=fullflexible
 }
+
+\definecolor{keywords}{rgb}{0.6,0,0.6}
+\lstdefinestyle{simusSQL}{
+	language=SQL,
+	frame=single,
+	keywordstyle=\color{keywords},
+	tabsize=4,
+	breaklines=true,
+	framesep=5pt,
+	deletekeywords={YEAR},
+	morekeywords={REFERENCES}
+}
+\lstdefinestyle{simusCypher}{
+	style=simusSQL,
+	frame=single,
+	keywordstyle=\color{keywords},
+	tabsize=4,
+	breaklines=true,
+	framesep=5pt,
+	deletekeywords={YEAR},
+	morekeywords={RETURN,TOFLOAT,WITH}	
+}
