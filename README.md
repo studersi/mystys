@@ -14,8 +14,14 @@ for TeXstudio (& Texmaker) on Linux Mint 17
 
 import like other packages in .tex file
 
-Styles
-------
+Packages
+--------
+* simushdr
+* simuslistings
+* tikz-er2
+
+Styles in simuslistings
+-----------------------
 * simusTerminalCommand
 * simusSQL
 * simusCypher
