@@ -9,7 +9,7 @@ Setup
 -----
 for TeXstudio (& Texmaker) on Linux Mint 17
 * git clone git@github.com:studersi/mystys.git
-* sudo cp -R ./mystys /usr/share/texlive/tex/latex/
+* sudo cp -R ./mystys /usr/share/texmf/tex/latex/
 * sudo texhash
 
 import like other packages in .tex file
