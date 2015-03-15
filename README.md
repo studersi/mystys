@@ -19,6 +19,7 @@ Packages
 * profcaption
 * simushdr
 * simuslistings
+* simusmath
 * tikz-er2
 
 Styles in simuslistings
@@ -26,6 +27,13 @@ Styles in simuslistings
 * simusTerminalCommand
 * simusSQL
 * simusCypher
+* 
+
+Commands in simusmath
+---------------------
+* ```\multiset{}{}``` using <> 
+* ```\multiseti{}{}``` as fraction with rising factorial
+* ```\multisetii{}``` as fraction with rising factorial and paranthesis in denominator
 
 Hints
 -----
