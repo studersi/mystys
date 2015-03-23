@@ -9,7 +9,7 @@ Setup
 -----
 for TeXstudio (& Texmaker) on Linux Mint 17
 * git clone git@github.com:studersi/mystys.git
-* sudo cp -r ./mystys/ /usr/share/texlive/texmf-dist/tex/latex/
+* sudo cp -r ./mystys/ /usr/share/texmf/tex/latex/
 * sudo texhash
 
 import like other packages in .tex file
@@ -37,5 +37,5 @@ Commands in simusmath
 
 Hints
 -----
-* Use \lstset{style=<STYLE>} at the top to set default for the document
-* For professional captions with profcaption, add option [caption=foobar] to listing
+* Use ```\lstset{style=<STYLE>}``` at the top to set default for the document
+* For professional captions with profcaption, add option ```[caption=foobar]``` to listing
